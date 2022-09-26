@@ -1,0 +1,96 @@
+/* HTML 버전의 style.css 파일 */
+* {
+  margin: 0;
+  padding: 0;
+}
+#header h1 {
+  margin: 10px;
+}
+#body {
+  max-width: 1440px;
+  margin: auto;
+}
+#body > h1 , #body-2 > h1{
+  margin: 16px 0;
+}
+#body > h1 img {
+  margin: 10px 0 10px 10px;
+}
+#footer {
+  height: 200px;
+  background: #222;
+  display: flex;
+  flex: 1 1 15%;
+  justify-content: center;
+  align-items: center;
+}
+#body-2 {
+  margin: auto;
+  max-width: 1440px;
+}
+#footer {
+  margin: 150px 0 0 0;
+}
+#footer > a {
+  text-decoration: none;
+  padding: 20px;
+  color: #fff;
+}
+#banner {
+  height: 300px;
+  cursor: pointer;
+  margin: 150px 0;
+}
+#banner > img {
+  width: 100%;
+}
+#header-area {
+  display: flex;
+  justify-content: center;
+}
+#header-area > img {
+  height: 833px;
+}
+#header-area-2 {
+  display: flex;
+  justify-content: center;
+}
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  width: 23.2%;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  cursor: pointer;
+}
+.product-img {
+  width: 100%;
+}
+.product-img:hover {
+  filter: brightness(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.product-contents {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.product-name {
+  font-size: 14px;
+}
+.product-price {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+.product-seller {
+  margin-top: 12px;
+  margin-top: 12px;
+  color: #888;
+}
+.product-avatar {
+  width: 24px;
+}
